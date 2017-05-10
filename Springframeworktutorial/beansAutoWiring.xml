@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	<bean id="ClassABeans" class="autowriting.ClassA">
+	</bean>
+	<bean id="ClassBBeans" class="autowriting.ClassB">
+	</bean>
+	<bean id="LoggingBeans" class="autowriting.LoggingClass"
+		autowire="byType">
+	
+	</bean>
+</beans>
